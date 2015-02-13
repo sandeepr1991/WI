@@ -1,0 +1,8 @@
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+SELECT ?UniversityName ?NumberOfStudents WHERE{
+?UniversityName1 rdfs:label ?UniversityName.
+?UniversityName1 dbpedia-owl:numberOfStudents ?NumberOfStudents.
+FILTER (regex(?UniversityName1, '^http://dbpedia.org/resource/University_of_Southern_California$')||regex(?UniversityName1, '^http://dbpedia.org/resource/University_of_California,_Los_Angeles$'))
+}
+LIMIT 10

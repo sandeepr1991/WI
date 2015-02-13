@@ -1,0 +1,45 @@
+/usr/local/lib/python2.7/dist-packages/twisted/internet/_sslverify.py:184: UserWarning: You do not have the service_identity module installed. Please install it from <https://pypi.python.org/pypi/service_identity>. Without the service_identity module and a recent enough pyOpenSSL tosupport it, Twisted can perform only rudimentary TLS client hostnameverification.  Many valid certificate/hostname mappings may be rejected.
+  verifyHostname, VerificationError = _selectVerifyImplementation()
+2015-01-19 14:18:40-0800 [scrapy] INFO: Scrapy 0.24.4 started (bot: assignment1)
+2015-01-19 14:18:40-0800 [scrapy] INFO: Optional features available: ssl, http11
+2015-01-19 14:18:40-0800 [scrapy] INFO: Overridden settings: {'NEWSPIDER_MODULE': 'assignment1.spiders', 'SPIDER_MODULES': ['assignment1.spiders'], 'LOG_LEVEL': 'INFO', 'DOWNLOAD_DELAY': 0.5, 'BOT_NAME': 'assignment1'}
+2015-01-19 14:18:40-0800 [scrapy] INFO: Enabled extensions: LogStats, TelnetConsole, CloseSpider, WebService, CoreStats, SpiderState
+2015-01-19 14:18:40-0800 [scrapy] INFO: Enabled downloader middlewares: HttpAuthMiddleware, DownloadTimeoutMiddleware, UserAgentMiddleware, RetryMiddleware, DefaultHeadersMiddleware, MetaRefreshMiddleware, HttpCompressionMiddleware, RedirectMiddleware, CookiesMiddleware, ChunkedTransferMiddleware, DownloaderStats
+2015-01-19 14:18:40-0800 [scrapy] INFO: Enabled spider middlewares: HttpErrorMiddleware, OffsiteMiddleware, RefererMiddleware, UrlLengthMiddleware, DepthMiddleware
+2015-01-19 14:18:40-0800 [scrapy] INFO: Enabled item pipelines: 
+2015-01-19 14:18:40-0800 [assignment1] INFO: Spider opened
+2015-01-19 14:18:40-0800 [assignment1] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+/home/sandeep/Dropbox/Studies/WI/Assignment1/assignment1/assignment1/spiders/assignment1.py:15: ScrapyDeprecationWarning: scrapy.selector.HtmlXPathSelector is deprecated, instantiate scrapy.Selector instead.
+  response = HtmlXPathSelector(response)
+/usr/local/lib/python2.7/dist-packages/scrapy/selector/unified.py:106: ScrapyDeprecationWarning: scrapy.selector.HtmlXPathSelector is deprecated, instantiate scrapy.Selector instead.
+  for x in result]
+2015-01-19 14:18:41-0800 [assignment1] ERROR: Spider error processing <GET http://www.moma.org/collection/browse_results.php?UC=&criteria=O%3ADE%3AI%3A1%7CG%3AHI%3AE%3A1&page_number=1&results_per_page=160&sort_order=2&template_id=6>
+	Traceback (most recent call last):
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/base.py", line 824, in runUntilCurrent
+	    call.func(*call.args, **call.kw)
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 638, in _tick
+	    taskObj._oneWorkUnit()
+	  File "/usr/local/lib/python2.7/dist-packages/twisted/internet/task.py", line 484, in _oneWorkUnit
+	    result = next(self._iterator)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 57, in <genexpr>
+	    work = (callable(elem, *args, **named) for elem in iterable)
+	--- <exception caught here> ---
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/utils/defer.py", line 96, in iter_errback
+	    yield next(it)
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/offsite.py", line 26, in process_spider_output
+	    for x in result:
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/referer.py", line 22, in <genexpr>
+	    return (_set_referer(r) for r in result or ())
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/urllength.py", line 33, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spidermiddleware/depth.py", line 50, in <genexpr>
+	    return (r for r in result or () if _filter(r))
+	  File "/usr/local/lib/python2.7/dist-packages/scrapy/contrib/spiders/crawl.py", line 67, in _parse_response
+	    cb_res = callback(response, **cb_kwargs) or ()
+	  File "/home/sandeep/Dropbox/Studies/WI/Assignment1/assignment1/assignment1/spiders/assignment1.py", line 17, in parse_item
+	    print link
+	exceptions.UnicodeEncodeError: 'ascii' codec can't encode character u'\xe9' in position 1933: ordinal not in range(128)
+	
+2015-01-19 14:18:42-0800 [scrapy] INFO: Received SIGINT, shutting down gracefully. Send again to force 
+2015-01-19 14:18:42-0800 [assignment1] INFO: Closing spider (shutdown)
+2015-01-19 14:18:42-0800 [scrapy] INFO: Received SIGINT twice, forcing unclean shutdown

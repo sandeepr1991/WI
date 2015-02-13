@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:sc="http://www.schema.org/Painting/" xmlns:s="http://www.schema.org/" xmlns:exterms="http://www.example.org/terms/">
+	<rdf:Description rdf:about="http://www.moma.org/collection/object.php?object_id=79093">
+		<sc:name rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Day of Locust</sc:name>
+		<sc:materials rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Oil on Canvas</sc:materials>
+		<sc:dateCreated>1978</sc:dateCreated>
+		<sc:author rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Malcolm Marley</sc:author>
+		<sc:image s:url="http://www.moma.org/collection_images/resized/091/w500h420/CRI_151091.jpg"/>
+		<sc:dimension rdf:nodeID="abc"/>
+	</rdf:Description>  
+	<rdf:Description rdf:nodeID="abc">
+		<sc:width rdf:nodeID="def"/>
+		<sc:height rdf:nodeID="hik"/>
+	</rdf:Description>
+	<rdf:Description rdf:nodeID="def">
+		<rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">239.3</rdf:value>
+		<exterms:aLength exterms:unit="exterms:centimeters"/>
+	</rdf:Description> 
+	<rdf:Description rdf:nodeID="hik">
+		<rdf:value rdf:datatype="http://www.w3.org/2001/XMLSchema#float">199.5</rdf:value>
+		<exterms:aLength exterms:unit="exterms:centimeters"/>
+	</rdf:Description> 
+</rdf:RDF>	

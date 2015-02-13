@@ -1,0 +1,14 @@
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] a <Art> ;
+    <Artist> [ <value> "Malcolm Morley" ] ;
+    <Category> [ <value> "Painting" ] ;
+    <Credit> [ <value> "The Bernhill Fund, Enid A. Haupt and Sid R. Bass Funds" ] ;
+    <Date> [ <value> "1978" ] ;
+    <Dimension> [ <value> "7' 10 1/8\" x 7' 6 5/8\" (239.3 x 199.5 cm)" ] ;
+    <Image> [ <value> "http://www.moma.org/collection_images/resized/091/w500h420/CRI_151091.jpg" ] ;
+    <Medium> [ <value> "Oil on canvas" ] ;
+    <Status> [ <value> "Not on view" ] ;
+    <Title> [ <value> "The Day of the Locust" ] .

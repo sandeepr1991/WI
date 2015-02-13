@@ -1,0 +1,34 @@
+PREFIX fn:  <http://www.w3.org/2005/xpath-functions/#>
+PREFIX dbpedia: <http://dbpedia.org/resource/>
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbpprop:<http://dbpedia.org/property/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>
+SELECT Distinct(?universityName),?establishedDate
+{
+    ?university rdfs:label ?universityName
+    {
+        ?university rdf:type <http://dbpedia.org/class/yago/UniversitiesAndCollegesInLosAngelesCounty,California> .
+        ?university dbpprop:established ?establishedDate.
+        FILTER ((datatype(?establishedDate)) != xsd:date).
+        FILTER(?establishedDate < 2015-100)
+
+    }
+    UNION
+    {
+        ?university <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Universities_and_colleges_in_Los_Angeles,_California>.
+        ?university dbpprop:established ?establishedDate1.
+        FILTER ((datatype(?establishedDate1)) = xsd:date).
+        bind( year(?establishedDate1) as ?establishedDate ).
+    }
+    UNION
+    {
+        ?university <http://purl.org/dc/terms/subject> <http://dbpedia.org/resource/Category:Universities_and_colleges_in_Los_Angeles,_California>.
+        ?university dbpprop:established ?establishedDate
+        FILTER ((datatype(?establishedDate)) != xsd:date).
+        FILTER(?establishedDate < 2015-100)
+    }
+}
+Order by ?establishedDate
+LIMIT 10

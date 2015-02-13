@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<response>
+<extractors>
+<extractor>rdf-turtle</extractor>
+</extractors>
+<report>
+<message/>
+<error/>
+<issueReport>
+</issueReport>
+<validationReport>
+<ruleActivations>
+</ruleActivations>
+<issues>
+</issues>
+<errors>
+</errors>
+</validationReport>
+</report>
+<data>
+<![CDATA[
+# OUTPUT FORMAT: Turtle (mimeTypes=text/turtle, application/x-turtle; ext=ttl)
+# BEGIN: ExtractionContext(urn:x-any23:rdf-turtle:root-extraction-result-id:http://any23.org/tmp/)
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+_:node19ciarii4x1055 a <http://any23.org/tmp/Art> .
+
+_:node19ciarii4x1056 <http://any23.org/tmp/value> "Malcolm Morley" .
+
+_:node19ciarii4x1055 <http://any23.org/tmp/Artist> _:node19ciarii4x1056 .
+
+_:node19ciarii4x1057 <http://any23.org/tmp/value> "Painting" .
+
+_:node19ciarii4x1055 <http://any23.org/tmp/Category> _:node19ciarii4x1057 .
+
+_:node19ciarii4x1058 <http://any23.org/tmp/value> "The Bernhill Fund, Enid A. Haupt and Sid R. Bass Funds" .
+
+_:node19ciarii4x1055 <http://any23.org/tmp/Credit> _:node19ciarii4x1058 .
+
+_:node19ciarii4x1059 <http://any23.org/tmp/value> "1978" .
+
+_:node19ciarii4x1055 <http://any23.org/tmp/Date> _:node19ciarii4x1059 .
+
+_:node19ciarii4x1060 <http://any23.org/tmp/value> "7' 10 1/8\" x 7' 6 5/8\" (239.3 x 199.5 cm)" .
+
+_:node19ciarii4x1055 <http://any23.org/tmp/Dimension> _:node19ciarii4x1060 .
+
+_:node19ciarii4x1061 <http://any23.org/tmp/value> "http://www.moma.org/collection_images/resized/091/w500h420/CRI_151091.jpg" .
+
+_:node19ciarii4x1055 <http://any23.org/tmp/Image> _:node19ciarii4x1061 .
+
+_:node19ciarii4x1062 <http://any23.org/tmp/value> "Oil on canvas" .
+
+_:node19ciarii4x1055 <http://any23.org/tmp/Medium> _:node19ciarii4x1062 .
+
+_:node19ciarii4x1063 <http://any23.org/tmp/value> "Not on view" .
+
+_:node19ciarii4x1055 <http://any23.org/tmp/Status> _:node19ciarii4x1063 .
+
+_:node19ciarii4x1064 <http://any23.org/tmp/value> "The Day of the Locust" .
+
+_:node19ciarii4x1055 <http://any23.org/tmp/Title> _:node19ciarii4x1064 .
+# END: ExtractionContext(urn:x-any23:rdf-turtle:root-extraction-result-id:http://any23.org/tmp/)
+]]>
+</data>
+</response>
