@@ -1,0 +1,38 @@
+Queries for three questions
+
+Q3)
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbpprop: <http://dbpedia.org/property/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf­schema#> 
+PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>
+PREFIX schema: <http://schema.org/>
+CONSTRUCT {
+ ?UniversityName1 schema:name ?UniversityName.
+}
+WHERE {
+ ?UniversityName1 rdfs:label ?UniversityName.
+    ?UniversityName1 rdf:type <http://dbpedia.org/class/yago/UniversitiesAndCollegesInLosAngelesCounty,California>.
+    ?UniversityName1 dbpprop:type dbpedia:Private_university.
+}
+Group by ?UniversityName1
+
+}
+
+
+
+Q4)
+SELECT  ?UniversityName1  
+WHERE 
+{ 
+?UniversityName1 <http://www.w3.org/2000/01/rdf-schema#type> <http://schema.org/Organistion> . 
+}
+
+Q10)
+
+PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n
+SELECT  
+?Person  
+WHERE 
+{ 
+?Person rdf:type <http://schema.org/Person> . 
+}

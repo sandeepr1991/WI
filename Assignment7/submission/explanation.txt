@@ -1,0 +1,35 @@
+q1)
+Creates a new memoryStore repository for executing sparql queries. This repository was initialized as a SAIL repository and query was executed using execQuery method.
+The sparql endpoint used is “http://live.dbpedia.org/sparql”.The program unversity uris and names of all the private universities in califoinia.
+
+q2)
+The Organisation model is used to model collegeoruniversity returned from the previous query.
+
+q3)
+Now, CONSTRUCT query is used to be convert the DBpedia entries into corresponding schema.org entires. This schema,org entries are stored in the local repository creates in the Q1.
+
+q4)
+A select query is executed is executed on the local memoryStore repository. Based on the query executed, uri’s of each university is returned. This helps us to verify that everything is working well with the local repository.
+
+Q5)
+Now comes loading the definitions of organisation class. The RDF/XML format definition is downloaded from schema.org. This rdf file is loaded into the local repository using “add” api.
+
+Q6)
+After loading the definition of organisation, the q4 sparql query is executed again. This time all the uris of the universities are returned.
+
+Q7)
+Now we are enabling the forward chaining on the local repository. For this a new instance of SAIL is created and loaded into the local repository.
+
+Q8)
+Again Q4 sparql query is executed and the return values will remain the same, since there is nothing new to be inferred from the present facts.
+
+Q9)
+Now a new tuple is added into the repository using createURL and add APIs. 
+
+Q10)
+Now a select query is executed to get all the persons in the local repository.
+Without forward chaining:
+There is nothing new inferred.
+With Forward chaining :
+A added tuple will be returned as a person, since alumniof is a property whose range is of type person.
+

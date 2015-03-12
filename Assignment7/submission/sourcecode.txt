@@ -1,0 +1,152 @@
+/*
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+package assignment;
+
+
+import java.io.IOException;
+
+import org.openrdf.model.Literal;
+import org.openrdf.model.URI;
+import org.openrdf.model.ValueFactory;
+import org.openrdf.query.BindingSet;
+import org.openrdf.query.MalformedQueryException;
+import org.openrdf.query.QueryEvaluationException;
+import org.openrdf.query.QueryLanguage;
+import org.openrdf.query.TupleQuery;
+import org.openrdf.query.TupleQueryResult;
+import org.openrdf.rio.RDFFormat;
+import org.openrdf.repository.Repository;
+import org.openrdf.repository.RepositoryConnection;
+import org.openrdf.repository.RepositoryException;
+import org.openrdf.repository.sail.SailRepository;
+
+import org.openrdf.sail.Sail;
+import org.openrdf.sail.inferencer.fc.ForwardChainingRDFSInferencer;
+import org.openrdf.sail.memory.MemoryStore;
+import org.openrdf.OpenRDFException;
+
+import com.hp.hpl.jena.query.Query;
+import com.hp.hpl.jena.query.QueryExecution;
+import com.hp.hpl.jena.query.QueryExecutionFactory;
+import com.hp.hpl.jena.query.QueryFactory;
+import com.hp.hpl.jena.query.QuerySolution;
+import com.hp.hpl.jena.query.ResultSet;
+import java.io.File;
+
+public class Assignment {
+	@SuppressWarnings("deprecation")
+	public static void main(String args[]) throws RepositoryException, MalformedQueryException, QueryEvaluationException, IOException {
+		
+		// creating a new local memory store repository
+		MemoryStore memoryStore = new MemoryStore();
+		Sail sail = new ForwardChainingRDFSInferencer(memoryStore);
+		Repository repository = new SailRepository(sail);
+		repository.initialize();
+		RepositoryConnection repositoryConnection = repository.getConnection();
+                File file = new File("/home/sandeep/example.rdf");
+                String baseURI = "http://schema.rdfs.org/";
+                 try {
+              repositoryConnection.add(file, baseURI, RDFFormat.RDFXML);
+
+ 
+                }
+                catch (OpenRDFException e) {
+              
+                }
+                finally {
+                // repositoryConnection.close();
+                }
+    
+   
+		// query to fetch all private universities in California
+		String sQuery = "PREFIX fn:  <http://www.w3.org/2005/xpath-functions/#>\n" +
+"PREFIX dbpedia: <http://dbpedia.org/resource/>\n" +
+"PREFIX dbpedia-owl: <http://dbpedia.org/ontology/>\n" +
+"PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
+"PREFIX dbpprop:<http://dbpedia.org/property/>\n" +
+"PREFIX rdfs:<http://www.w3.org/2000/01/rdf-schema#>\n" +
+"SELECT Distinct ?UniversityName1 (sample(?UniversityName) AS ?name) \n" +
+"{\n" +
+"    ?UniversityName1 rdfs:label ?UniversityName.\n" +
+"    ?UniversityName1 rdf:type <http://dbpedia.org/class/yago/UniversitiesAndCollegesInLosAngelesCounty,California>.\n" +
+"    ?UniversityName1 dbpprop:type dbpedia:Private_university.\n" +
+"}\n" +
+"Group by ?UniversityName1";
+      
+		Query query = QueryFactory.create(sQuery);
+		QueryExecution queryExecution = QueryExecutionFactory.sparqlService("http://live.dbpedia.org/sparql", query);
+		ResultSet resultSet = queryExecution.execSelect();
+		String schema = "http://schema.org/";
+		ValueFactory vFactory = repository.getValueFactory();
+		int number = 1;
+
+		
+		while (resultSet.hasNext()) {
+			QuerySolution querySolution = resultSet.nextSolution();
+			String universityURI;
+			URI s, p, o;
+			Literal l;
+
+			
+			if (querySolution.get("?UniversityName1") != null ) {
+				universityURI = querySolution.get("?UniversityName1").toString();
+				String[] getUniversityName = querySolution.get("?name").toString().split("@");
+				String universityName = getUniversityName[0];
+                              
+
+				s = vFactory.createURI(universityURI);
+				p = vFactory.createURI("http://www.w3.org/2000/01/rdf-schema#type");
+				o = vFactory.createURI(schema + "Organistion");
+				repositoryConnection.add(s, p, o);
+
+				s = vFactory.createURI(universityURI);
+				p = vFactory.createURI(schema + "name");
+				l = vFactory.createLiteral(universityName);
+				repositoryConnection.add(s, p, l);
+			} else {
+				universityURI = "";
+				
+			}
+
+			
+			number++;
+		}
+                URI s, p, o;
+                s = vFactory.createURI("<http://dbpedia.org/resource/University_of_Southern_California>");
+                p = vFactory.createURI("<http://schema.org/alumniOf>");
+                o = vFactory.createURI("<http://dbpedia.org/resource/C._L._Max_Nikias>");
+                URI person = vFactory.createURI("<http://schema.org/Person>");
+                URI rdf = vFactory.createURI("<http://www.w3.org/1999/02/22-rdf-syntax-ns#>");
+               repositoryConnection.add(o, rdf, person);
+                repositoryConnection.add(s, p, o);
+
+		
+		String finalQuery = "PREFIX rdf:<http://www.w3.org/1999/02/22-rdf-syntax-ns#>\n" +
+"SELECT  ?Person  WHERE { ?Person rdf:type <http://schema.org/Person> . }";
+		TupleQuery tQuery = repositoryConnection.prepareTupleQuery(QueryLanguage.SPARQL, finalQuery);
+		TupleQueryResult tqResult = tQuery.evaluate();
+		
+
+		System.out.println();
+		
+		while (tqResult.hasNext()) {
+			BindingSet bindingSet = tqResult.next();
+
+            
+			String university = bindingSet.getValue("Person").toString();
+                        System.out.println(university+"\n");
+                   
+			
+		}
+
+		
+		
+		repositoryConnection.close();
+		repository.shutDown();
+	}
+
+	
+}

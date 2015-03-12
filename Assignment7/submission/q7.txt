@@ -1,0 +1,1621 @@
+run:
+21:53:31.884 [main] DEBUG org.openrdf.sail.memory.MemoryStore - Initializing MemoryStore...
+21:53:31.892 [main] DEBUG org.openrdf.sail.memory.MemoryStore - MemoryStore initialized
+21:53:31.915 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - Inserting axiom statements
+21:53:31.939 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:31.991 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 59 new statements
+21:53:31.991 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:32.012 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 34 new statements
+21:53:32.013 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 3
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 3 done; inferred 0 new statements
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/sandeep/Dropbox/Studies/WI/niki/Assignments/CSCI%20548%20-%20Information%20Integration%20on%20the%20Web/6%20-%20Querying%20Local%20Triple%20Store%20created%20from%20DBPedia/cs548a6/lib/logback-classic-0.9.28.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/sandeep/Dropbox/Studies/WI/niki/Assignments/CSCI%20548%20-%20Information%20Integration%20on%20the%20Web/6%20-%20Querying%20Local%20Triple%20Store%20created%20from%20DBPedia/cs548a6/lib/slf4j-log4j12-1.7.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 93
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=4
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=20
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=14
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=7
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=7
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:32.029 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=16
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=13
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=12
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:32.030 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:32.091 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.binary.BinaryRDFParserFactory
+21:53:32.093 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.nquads.NQuadsParserFactory
+21:53:32.100 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.n3.N3ParserFactory
+21:53:32.114 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.rdfjson.RDFJSONParserFactory
+21:53:32.124 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.rdfxml.RDFXMLParserFactory
+21:53:32.133 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.trix.TriXParserFactory
+21:53:32.138 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.turtle.TurtleParserFactory
+21:53:32.141 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.trig.TriGParserFactory
+21:53:32.143 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.ntriples.NTriplesParserFactory
+21:53:32.516 [main] DEBUG org.xml.sax.XMLReader - XMLReader initialized using JAXP: org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser@7219ec67
+21:53:32.606 [main] DEBUG o.o.rio.DatatypeHandlerRegistry - Registered service class org.openrdf.rio.datatypes.XMLSchemaDatatypeHandler
+21:53:32.607 [main] DEBUG o.o.rio.DatatypeHandlerRegistry - Registered service class org.openrdf.rio.datatypes.RDFDatatypeHandler
+21:53:32.608 [main] DEBUG o.o.rio.DatatypeHandlerRegistry - Registered service class org.openrdf.rio.datatypes.DBPediaDatatypeHandler
+21:53:32.613 [main] DEBUG o.o.rio.DatatypeHandlerRegistry - Registered service class org.openrdf.rio.datatypes.VirtuosoGeometryDatatypeHandler
+21:53:32.614 [main] DEBUG o.o.rio.DatatypeHandlerRegistry - Registered service class org.openrdf.rio.datatypes.GeoSPARQLDatatypeHandler
+21:53:32.619 [main] DEBUG o.o.rio.LanguageHandlerRegistry - Registered service class org.openrdf.rio.languages.RFC3066LanguageHandler
+21:53:33.741 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:35.209 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 7319 new statements
+21:53:35.211 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:36.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 465 new statements
+21:53:36.046 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 3
+21:53:36.088 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 3 done; inferred 0 new statements
+21:53:36.090 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:36.091 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 7784
+21:53:36.092 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=11
+21:53:36.092 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1999
+21:53:36.092 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:36.092 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=225
+21:53:36.092 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:36.092 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=518
+21:53:36.093 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=15
+21:53:36.094 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:36.094 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:36.094 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=722
+21:53:36.094 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=1480
+21:53:36.094 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:36.107 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=769
+21:53:36.108 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:36.108 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:36.108 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=769
+21:53:36.108 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=1272
+21:53:36.108 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=4
+21:53:36.108 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:36.108 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:36.108 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:36.108 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:36.498 [main] DEBUG o.a.j.r.s.stream.JenaIOEnvironment - Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+21:53:37.186 [main] DEBUG org.apache.jena.riot.web.HttpOp - [1] GET http://live.dbpedia.org/sparql?query=PREFIX++dbpedia-owl%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++fn%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%2F%23%3E%0APREFIX++dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++dbpprop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0A%0ASELECT+DISTINCT++%3FUniversityName1+%28sample%28%3FUniversityName%29+AS+%3Fname%29%0AWHERE%0A++%7B+%3FUniversityName1+rdfs%3Alabel+%3FUniversityName+.%0A++++%3FUniversityName1+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fclass%2Fyago%2FUniversitiesAndCollegesInLosAngelesCounty%2CCalifornia%3E+.%0A++++%3FUniversityName1+dbpprop%3Atype+dbpedia%3APrivate_university%0A++%7D%0AGROUP+BY+%3FUniversityName1%0A
+21:53:37.769 [main] DEBUG o.a.h.i.c.PoolingClientConnectionManager - Connection request: [route: {}->http://live.dbpedia.org][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+21:53:37.799 [main] DEBUG o.a.h.i.c.PoolingClientConnectionManager - Connection leased: [id: 0][route: {}->http://live.dbpedia.org][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+21:53:38.160 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connecting to live.dbpedia.org:80
+21:53:38.387 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: best-match
+21:53:38.405 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+21:53:38.406 [main] DEBUG o.a.h.c.p.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+21:53:38.408 [main] DEBUG o.a.h.c.p.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+21:53:38.409 [main] DEBUG o.a.h.i.c.SystemDefaultHttpClient - Attempt 1 to execute request
+21:53:38.410 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Sending request: GET /sparql?query=PREFIX++dbpedia-owl%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++fn%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%2F%23%3E%0APREFIX++dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++dbpprop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0A%0ASELECT+DISTINCT++%3FUniversityName1+%28sample%28%3FUniversityName%29+AS+%3Fname%29%0AWHERE%0A++%7B+%3FUniversityName1+rdfs%3Alabel+%3FUniversityName+.%0A++++%3FUniversityName1+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fclass%2Fyago%2FUniversitiesAndCollegesInLosAngelesCounty%2CCalifornia%3E+.%0A++++%3FUniversityName1+dbpprop%3Atype+dbpedia%3APrivate_university%0A++%7D%0AGROUP+BY+%3FUniversityName1%0A HTTP/1.1
+21:53:38.418 [main] DEBUG org.apache.http.wire - >> "GET /sparql?query=PREFIX++dbpedia-owl%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++fn%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%2F%23%3E%0APREFIX++dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++dbpprop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0A%0ASELECT+DISTINCT++%3FUniversityName1+%28sample%28%3FUniversityName%29+AS+%3Fname%29%0AWHERE%0A++%7B+%3FUniversityName1+rdfs%3Alabel+%3FUniversityName+.%0A++++%3FUniversityName1+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fclass%2Fyago%2FUniversitiesAndCollegesInLosAngelesCounty%2CCalifornia%3E+.%0A++++%3FUniversityName1+dbpprop%3Atype+dbpedia%3APrivate_university%0A++%7D%0AGROUP+BY+%3FUniversityName1%0A HTTP/1.1[\r][\n]"
+21:53:38.426 [main] DEBUG org.apache.http.wire - >> "Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1[\r][\n]"
+21:53:38.426 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-Jena-ARQ/2.12.0[\r][\n]"
+21:53:38.426 [main] DEBUG org.apache.http.wire - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:53:38.426 [main] DEBUG org.apache.http.wire - >> "Host: live.dbpedia.org[\r][\n]"
+21:53:38.426 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+21:53:38.426 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+21:53:38.426 [main] DEBUG org.apache.http.headers - >> GET /sparql?query=PREFIX++dbpedia-owl%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++fn%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%2F%23%3E%0APREFIX++dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++dbpprop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0A%0ASELECT+DISTINCT++%3FUniversityName1+%28sample%28%3FUniversityName%29+AS+%3Fname%29%0AWHERE%0A++%7B+%3FUniversityName1+rdfs%3Alabel+%3FUniversityName+.%0A++++%3FUniversityName1+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fclass%2Fyago%2FUniversitiesAndCollegesInLosAngelesCounty%2CCalifornia%3E+.%0A++++%3FUniversityName1+dbpprop%3Atype+dbpedia%3APrivate_university%0A++%7D%0AGROUP+BY+%3FUniversityName1%0A HTTP/1.1
+21:53:38.426 [main] DEBUG org.apache.http.headers - >> Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1
+21:53:38.426 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-Jena-ARQ/2.12.0
+21:53:38.427 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+21:53:38.427 [main] DEBUG org.apache.http.headers - >> Host: live.dbpedia.org
+21:53:38.427 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+21:53:38.664 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+21:53:38.668 [main] DEBUG org.apache.http.wire - << "Date: Sat, 07 Mar 2015 05:53:38 GMT[\r][\n]"
+21:53:38.669 [main] DEBUG org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
+21:53:38.670 [main] DEBUG org.apache.http.wire - << "Content-Length: 5503[\r][\n]"
+21:53:38.671 [main] DEBUG org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+21:53:38.672 [main] DEBUG org.apache.http.wire - << "Server: Virtuoso/07.10.3211 (Linux) i686-generic-linux-glibc212-64  VDB[\r][\n]"
+21:53:38.672 [main] DEBUG org.apache.http.wire - << "Expires: Sat, 07 Mar 2015 05:54:38 GMT[\r][\n]"
+21:53:38.672 [main] DEBUG org.apache.http.wire - << "Cache-Control: max-age=60[\r][\n]"
+21:53:38.673 [main] DEBUG org.apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+21:53:38.673 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+21:53:38.675 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+21:53:38.675 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+21:53:38.675 [main] DEBUG org.apache.http.headers - << Date: Sat, 07 Mar 2015 05:53:38 GMT
+21:53:38.676 [main] DEBUG org.apache.http.headers - << Content-Type: application/sparql-results+json
+21:53:38.676 [main] DEBUG org.apache.http.headers - << Content-Length: 5503
+21:53:38.676 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+21:53:38.676 [main] DEBUG org.apache.http.headers - << Server: Virtuoso/07.10.3211 (Linux) i686-generic-linux-glibc212-64  VDB
+21:53:38.676 [main] DEBUG org.apache.http.headers - << Expires: Sat, 07 Mar 2015 05:54:38 GMT
+21:53:38.676 [main] DEBUG org.apache.http.headers - << Cache-Control: max-age=60
+21:53:38.676 [main] DEBUG org.apache.http.headers - << Accept-Ranges: bytes
+21:53:38.683 [main] DEBUG o.a.h.i.c.SystemDefaultHttpClient - Connection can be kept alive indefinitely
+21:53:38.707 [main] DEBUG org.apache.http.wire - << "[\n]"
+21:53:38.709 [main] DEBUG org.apache.http.wire - << "{ "head": { "link": [], "vars": ["UniversityName1", "name"] },[\n]"
+21:53:38.711 [main] DEBUG org.apache.http.wire - << "  "results": { "distinct": false, "ordered": true, "bindings": [[\n]"
+21:53:38.713 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Abraham_Lincoln_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Abraham Lincoln University" }},[\n]"
+21:53:38.714 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Mount_St._Mary's_College" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Mount St. Mary's College" }},[\n]"
+21:53:38.714 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Loyola_Law_School" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Loyola Law School" }},[\n]"
+21:53:38.714 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/University_of_Santa_Monica" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "University of Santa Monica" }},[\n]"
+21:53:38.714 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/California_Institute_of_Technology" }[0x9], "name": { "type": "literal"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "", "xml:lang": "en", "value": "California Institute of Technology" }},[\n]"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Pacific_Oaks_College" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Pacific Oaks College" }},[\n]"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Southwestern_Law_School" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Southwestern Law School" }},[\n]"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Antioch_University_Los_Angeles" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Antioch University Los Angeles" }},[\n]"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/University_of_Southern_California" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "University of Southern California" }},[\n]"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Pacific_Coast_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Pacific Coast University" }},[\n]"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Glendale_University_College_of_Law" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Glendale University College of Law" }},[\n]"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Occidental_College" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Occidental College" }},[\n]"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Woodbury_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Woodbury University" }},[\n]"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Whittier_College" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Whittier College" }},[\n]"
+21:53:38.745 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/California_InterContinental_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "California InterContinental University" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Fashion_Institute_of_Design_&_Merchandising" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Fashion Institute of Design & Merchandising" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Azusa_Pacific_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Azusa Pacific University" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Pepperdine_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Pepperdine University" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/College_of_Osteopathic_Medicine_of_the_Pacific" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "College of Osteopathic Medicine of the Pacific" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Pacific_States_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Pacific States University" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Southern_California_University_of_Health_Sciences" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Southern California University of Health Sciences" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Art_Center_College_of_Design" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Art Center College of Design" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/University_of_the_West" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "University of the West" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/American_Academy_of_Dramatic_Arts" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "American Academy of Dramatic Arts" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Keck_Graduate_Institute_of_Applied_Life_Sciences" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Keck Graduate Institute of Applied Life Sciences" }},[\n]"
+21:53:38.746 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Loyola_Marymount_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Loyola Marymount University" }} ] } }"
+21:53:38.757 [main] DEBUG o.a.h.i.c.PoolingClientConnectionManager - Connection [id: 0][route: {}->http://live.dbpedia.org] can be kept alive indefinitely
+21:53:38.759 [main] DEBUG o.a.h.i.c.PoolingClientConnectionManager - Connection released: [id: 0][route: {}->http://live.dbpedia.org][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+21:53:38.799 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.800 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 3 new statements
+21:53:38.800 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.800 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 2 new statements
+21:53:38.800 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 3
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 3 done; inferred 0 new statements
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 5
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=1
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=1
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=1
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.801 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.803 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.803 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.803 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.803 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.803 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.804 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.805 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.806 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.807 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.809 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.809 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.809 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.809 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.809 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.813 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.814 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.815 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.816 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.817 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.818 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.820 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.821 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.822 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.823 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.824 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.824 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.824 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.824 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.824 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.824 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.824 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.824 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.824 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.824 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.829 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.829 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.830 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.831 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.831 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.831 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.831 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.831 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.831 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.831 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.834 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.834 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.834 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.834 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.834 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.835 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.835 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.835 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.835 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.835 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.835 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.835 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.835 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.835 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.835 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.836 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.836 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.837 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.838 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.839 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.840 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.840 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.845 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.845 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.845 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.845 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.845 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.845 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.845 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.846 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.847 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.848 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.849 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.850 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.851 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.853 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.854 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.855 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.855 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.855 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.893 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.894 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.895 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.896 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.897 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.897 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.970 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.971 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:38.972 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:38.973 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.040 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.040 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.042 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.042 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.043 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.044 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.045 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.116 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.117 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.117 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.117 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.117 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.117 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.117 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.117 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.117 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.117 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.117 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.237 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.238 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.252 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.253 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.254 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.330 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.330 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.330 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.330 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.330 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.330 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.330 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.331 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.333 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.334 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.392 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.392 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.392 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.392 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.392 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.392 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.393 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.394 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.454 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.454 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.454 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.455 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.456 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.523 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.524 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.525 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.588 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.589 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.590 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.648 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.648 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.648 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.648 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.648 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.648 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.648 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.649 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=1
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 1
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 1 done; inferred 1 new statements
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - starting iteration 2
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - iteration 2 done; inferred 0 new statements
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---RdfMTInferencer statistics:---
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - total statements inferred = 1
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule    Rdf1:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_1:	#inferred=1
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs2_2:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_1:	#inferred=0
+21:53:39.650 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs3_2:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4a:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs4b:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_1:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule Rdfs5_2:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs6:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_1:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs7_2:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs8:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_1:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs9_2:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs10:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_1:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule  Rdfs11_2:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs12:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   Rdfs13:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - rule   RX1:	#inferred=0
+21:53:39.712 [main] DEBUG o.o.s.i.f.ForwardChainingRDFSInferencerConnection - ---end of statistics:---
+BUILD SUCCESSFUL (total time: 9 seconds)
+

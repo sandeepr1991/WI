@@ -1,0 +1,158 @@
+run:
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/home/sandeep/Dropbox/Studies/WI/niki/Assignments/CSCI%20548%20-%20Information%20Integration%20on%20the%20Web/6%20-%20Querying%20Local%20Triple%20Store%20created%20from%20DBPedia/cs548a6/lib/logback-classic-0.9.28.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/sandeep/Dropbox/Studies/WI/niki/Assignments/CSCI%20548%20-%20Information%20Integration%20on%20the%20Web/6%20-%20Querying%20Local%20Triple%20Store%20created%20from%20DBPedia/cs548a6/lib/slf4j-log4j12-1.7.6.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+21:50:11.770 [main] DEBUG org.openrdf.sail.memory.MemoryStore - Initializing MemoryStore...
+21:50:11.782 [main] DEBUG org.openrdf.sail.memory.MemoryStore - MemoryStore initialized
+21:50:11.880 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.binary.BinaryRDFParserFactory
+21:50:11.884 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.nquads.NQuadsParserFactory
+21:50:11.888 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.n3.N3ParserFactory
+21:50:11.896 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.rdfjson.RDFJSONParserFactory
+21:50:11.900 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.rdfxml.RDFXMLParserFactory
+21:50:11.910 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.trix.TriXParserFactory
+21:50:11.915 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.turtle.TurtleParserFactory
+21:50:11.919 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.trig.TriGParserFactory
+21:50:11.923 [main] DEBUG org.openrdf.rio.RDFParserRegistry - Registered service class org.openrdf.rio.ntriples.NTriplesParserFactory
+21:50:12.427 [main] DEBUG org.xml.sax.XMLReader - XMLReader initialized using JAXP: org.apache.xerces.jaxp.SAXParserImpl$JAXPSAXParser@6325a3ee
+21:50:12.548 [main] DEBUG o.o.rio.DatatypeHandlerRegistry - Registered service class org.openrdf.rio.datatypes.XMLSchemaDatatypeHandler
+21:50:12.550 [main] DEBUG o.o.rio.DatatypeHandlerRegistry - Registered service class org.openrdf.rio.datatypes.RDFDatatypeHandler
+21:50:12.555 [main] DEBUG o.o.rio.DatatypeHandlerRegistry - Registered service class org.openrdf.rio.datatypes.DBPediaDatatypeHandler
+21:50:12.559 [main] DEBUG o.o.rio.DatatypeHandlerRegistry - Registered service class org.openrdf.rio.datatypes.VirtuosoGeometryDatatypeHandler
+21:50:12.568 [main] DEBUG o.o.rio.DatatypeHandlerRegistry - Registered service class org.openrdf.rio.datatypes.GeoSPARQLDatatypeHandler
+21:50:12.575 [main] DEBUG o.o.rio.LanguageHandlerRegistry - Registered service class org.openrdf.rio.languages.RFC3066LanguageHandler
+21:50:13.952 [main] DEBUG o.a.j.r.s.stream.JenaIOEnvironment - Failed to find configuration: location-mapping.ttl;location-mapping.rdf;location-mapping.n3;etc/location-mapping.rdf;etc/location-mapping.n3;etc/location-mapping.ttl
+21:50:14.664 [main] DEBUG org.apache.jena.riot.web.HttpOp - [1] GET http://live.dbpedia.org/sparql?query=PREFIX++dbpedia-owl%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++fn%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%2F%23%3E%0APREFIX++dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++dbpprop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0A%0ASELECT+DISTINCT++%3FUniversityName1+%28sample%28%3FUniversityName%29+AS+%3Fname%29%0AWHERE%0A++%7B+%3FUniversityName1+rdfs%3Alabel+%3FUniversityName+.%0A++++%3FUniversityName1+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fclass%2Fyago%2FUniversitiesAndCollegesInLosAngelesCounty%2CCalifornia%3E+.%0A++++%3FUniversityName1+dbpprop%3Atype+dbpedia%3APrivate_university%0A++%7D%0AGROUP+BY+%3FUniversityName1%0A
+21:50:15.118 [main] DEBUG o.a.h.i.c.PoolingClientConnectionManager - Connection request: [route: {}->http://live.dbpedia.org][total kept alive: 0; route allocated: 0 of 5; total allocated: 0 of 10]
+21:50:15.139 [main] DEBUG o.a.h.i.c.PoolingClientConnectionManager - Connection leased: [id: 0][route: {}->http://live.dbpedia.org][total kept alive: 0; route allocated: 1 of 5; total allocated: 1 of 10]
+21:50:15.158 [main] DEBUG o.a.h.i.c.DefaultClientConnectionOperator - Connecting to live.dbpedia.org:80
+21:50:15.381 [main] DEBUG o.a.h.c.protocol.RequestAddCookies - CookieSpec selected: best-match
+21:50:15.407 [main] DEBUG o.a.h.c.protocol.RequestAuthCache - Auth cache not set in the context
+21:50:15.408 [main] DEBUG o.a.h.c.p.RequestTargetAuthentication - Target auth state: UNCHALLENGED
+21:50:15.410 [main] DEBUG o.a.h.c.p.RequestProxyAuthentication - Proxy auth state: UNCHALLENGED
+21:50:15.411 [main] DEBUG o.a.h.i.c.SystemDefaultHttpClient - Attempt 1 to execute request
+21:50:15.417 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Sending request: GET /sparql?query=PREFIX++dbpedia-owl%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++fn%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%2F%23%3E%0APREFIX++dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++dbpprop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0A%0ASELECT+DISTINCT++%3FUniversityName1+%28sample%28%3FUniversityName%29+AS+%3Fname%29%0AWHERE%0A++%7B+%3FUniversityName1+rdfs%3Alabel+%3FUniversityName+.%0A++++%3FUniversityName1+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fclass%2Fyago%2FUniversitiesAndCollegesInLosAngelesCounty%2CCalifornia%3E+.%0A++++%3FUniversityName1+dbpprop%3Atype+dbpedia%3APrivate_university%0A++%7D%0AGROUP+BY+%3FUniversityName1%0A HTTP/1.1
+21:50:15.428 [main] DEBUG org.apache.http.wire - >> "GET /sparql?query=PREFIX++dbpedia-owl%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++fn%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%2F%23%3E%0APREFIX++dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++dbpprop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0A%0ASELECT+DISTINCT++%3FUniversityName1+%28sample%28%3FUniversityName%29+AS+%3Fname%29%0AWHERE%0A++%7B+%3FUniversityName1+rdfs%3Alabel+%3FUniversityName+.%0A++++%3FUniversityName1+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fclass%2Fyago%2FUniversitiesAndCollegesInLosAngelesCounty%2CCalifornia%3E+.%0A++++%3FUniversityName1+dbpprop%3Atype+dbpedia%3APrivate_university%0A++%7D%0AGROUP+BY+%3FUniversityName1%0A HTTP/1.1[\r][\n]"
+21:50:15.434 [main] DEBUG org.apache.http.wire - >> "Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1[\r][\n]"
+21:50:15.434 [main] DEBUG org.apache.http.wire - >> "User-Agent: Apache-Jena-ARQ/2.12.0[\r][\n]"
+21:50:15.434 [main] DEBUG org.apache.http.wire - >> "Accept-Encoding: gzip,deflate[\r][\n]"
+21:50:15.434 [main] DEBUG org.apache.http.wire - >> "Host: live.dbpedia.org[\r][\n]"
+21:50:15.434 [main] DEBUG org.apache.http.wire - >> "Connection: Keep-Alive[\r][\n]"
+21:50:15.434 [main] DEBUG org.apache.http.wire - >> "[\r][\n]"
+21:50:15.434 [main] DEBUG org.apache.http.headers - >> GET /sparql?query=PREFIX++dbpedia-owl%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0APREFIX++rdf%3A++%3Chttp%3A%2F%2Fwww.w3.org%2F1999%2F02%2F22-rdf-syntax-ns%23%3E%0APREFIX++fn%3A+++%3Chttp%3A%2F%2Fwww.w3.org%2F2005%2Fxpath-functions%2F%23%3E%0APREFIX++dbpedia%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fresource%2F%3E%0APREFIX++rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0APREFIX++dbpprop%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fproperty%2F%3E%0A%0ASELECT+DISTINCT++%3FUniversityName1+%28sample%28%3FUniversityName%29+AS+%3Fname%29%0AWHERE%0A++%7B+%3FUniversityName1+rdfs%3Alabel+%3FUniversityName+.%0A++++%3FUniversityName1+rdf%3Atype+%3Chttp%3A%2F%2Fdbpedia.org%2Fclass%2Fyago%2FUniversitiesAndCollegesInLosAngelesCounty%2CCalifornia%3E+.%0A++++%3FUniversityName1+dbpprop%3Atype+dbpedia%3APrivate_university%0A++%7D%0AGROUP+BY+%3FUniversityName1%0A HTTP/1.1
+21:50:15.434 [main] DEBUG org.apache.http.headers - >> Accept: application/sparql-results+json, application/sparql-results+xml;q=0.9, text/tab-separated-values;q=0.7, text/csv;q=0.5, application/json;q=0.2, application/xml;q=0.2, */*;q=0.1
+21:50:15.434 [main] DEBUG org.apache.http.headers - >> User-Agent: Apache-Jena-ARQ/2.12.0
+21:50:15.435 [main] DEBUG org.apache.http.headers - >> Accept-Encoding: gzip,deflate
+21:50:15.435 [main] DEBUG org.apache.http.headers - >> Host: live.dbpedia.org
+21:50:15.435 [main] DEBUG org.apache.http.headers - >> Connection: Keep-Alive
+21:50:15.673 [main] DEBUG org.apache.http.wire - << "HTTP/1.1 200 OK[\r][\n]"
+21:50:15.677 [main] DEBUG org.apache.http.wire - << "Date: Sat, 07 Mar 2015 05:50:15 GMT[\r][\n]"
+21:50:15.691 [main] DEBUG org.apache.http.wire - << "Content-Type: application/sparql-results+json[\r][\n]"
+21:50:15.692 [main] DEBUG org.apache.http.wire - << "Content-Length: 5503[\r][\n]"
+21:50:15.693 [main] DEBUG org.apache.http.wire - << "Connection: keep-alive[\r][\n]"
+21:50:15.694 [main] DEBUG org.apache.http.wire - << "Server: Virtuoso/07.10.3211 (Linux) i686-generic-linux-glibc212-64  VDB[\r][\n]"
+21:50:15.695 [main] DEBUG org.apache.http.wire - << "Expires: Sat, 07 Mar 2015 05:51:15 GMT[\r][\n]"
+21:50:15.697 [main] DEBUG org.apache.http.wire - << "Cache-Control: max-age=60[\r][\n]"
+21:50:15.698 [main] DEBUG org.apache.http.wire - << "Accept-Ranges: bytes[\r][\n]"
+21:50:15.700 [main] DEBUG org.apache.http.wire - << "[\r][\n]"
+21:50:15.701 [main] DEBUG o.a.h.i.conn.DefaultClientConnection - Receiving response: HTTP/1.1 200 OK
+21:50:15.703 [main] DEBUG org.apache.http.headers - << HTTP/1.1 200 OK
+21:50:15.704 [main] DEBUG org.apache.http.headers - << Date: Sat, 07 Mar 2015 05:50:15 GMT
+21:50:15.705 [main] DEBUG org.apache.http.headers - << Content-Type: application/sparql-results+json
+21:50:15.706 [main] DEBUG org.apache.http.headers - << Content-Length: 5503
+21:50:15.707 [main] DEBUG org.apache.http.headers - << Connection: keep-alive
+21:50:15.707 [main] DEBUG org.apache.http.headers - << Server: Virtuoso/07.10.3211 (Linux) i686-generic-linux-glibc212-64  VDB
+21:50:15.708 [main] DEBUG org.apache.http.headers - << Expires: Sat, 07 Mar 2015 05:51:15 GMT
+21:50:15.708 [main] DEBUG org.apache.http.headers - << Cache-Control: max-age=60
+21:50:15.708 [main] DEBUG org.apache.http.headers - << Accept-Ranges: bytes
+21:50:15.715 [main] DEBUG o.a.h.i.c.SystemDefaultHttpClient - Connection can be kept alive indefinitely
+21:50:15.745 [main] DEBUG org.apache.http.wire - << "[\n]"
+21:50:15.746 [main] DEBUG org.apache.http.wire - << "{ "head": { "link": [], "vars": ["UniversityName1", "name"] },[\n]"
+21:50:15.747 [main] DEBUG org.apache.http.wire - << "  "results": { "distinct": false, "ordered": true, "bindings": [[\n]"
+21:50:15.747 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Abraham_Lincoln_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Abraham Lincoln University" }},[\n]"
+21:50:15.747 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Mount_St._Mary's_College" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Mount St. Mary's College" }},[\n]"
+21:50:15.747 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Loyola_Law_School" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Loyola Law School" }},[\n]"
+21:50:15.747 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/University_of_Santa_Monica" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "University of Santa Monica" }},[\n]"
+21:50:15.747 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/California_Institute_of_Technology" }[0x9], "name": { "type": "literal"
+21:50:15.766 [main] DEBUG org.apache.http.wire - << "", "xml:lang": "en", "value": "California Institute of Technology" }},[\n]"
+21:50:15.766 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Pacific_Oaks_College" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Pacific Oaks College" }},[\n]"
+21:50:15.766 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Southwestern_Law_School" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Southwestern Law School" }},[\n]"
+21:50:15.766 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Antioch_University_Los_Angeles" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Antioch University Los Angeles" }},[\n]"
+21:50:15.766 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/University_of_Southern_California" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "University of Southern California" }},[\n]"
+21:50:15.766 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Pacific_Coast_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Pacific Coast University" }},[\n]"
+21:50:15.766 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Glendale_University_College_of_Law" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Glendale University College of Law" }},[\n]"
+21:50:15.766 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Occidental_College" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Occidental College" }},[\n]"
+21:50:15.766 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Woodbury_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Woodbury University" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Whittier_College" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Whittier College" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/California_InterContinental_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "California InterContinental University" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Fashion_Institute_of_Design_&_Merchandising" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Fashion Institute of Design & Merchandising" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Azusa_Pacific_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Azusa Pacific University" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Pepperdine_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Pepperdine University" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/College_of_Osteopathic_Medicine_of_the_Pacific" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "College of Osteopathic Medicine of the Pacific" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Pacific_States_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Pacific States University" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Southern_California_University_of_Health_Sciences" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Southern California University of Health Sciences" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Art_Center_College_of_Design" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Art Center College of Design" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/University_of_the_West" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "University of the West" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/American_Academy_of_Dramatic_Arts" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "American Academy of Dramatic Arts" }},[\n]"
+21:50:15.767 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Keck_Graduate_Institute_of_Applied_Life_Sciences" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Keck Graduate Institute of Applied Life Sciences" }},[\n]"
+21:50:15.768 [main] DEBUG org.apache.http.wire - << "    { "UniversityName1": { "type": "uri", "value": "http://dbpedia.org/resource/Loyola_Marymount_University" }[0x9], "name": { "type": "literal", "xml:lang": "en", "value": "Loyola Marymount University" }} ] } }"
+21:50:15.775 [main] DEBUG o.a.h.i.c.PoolingClientConnectionManager - Connection [id: 0][route: {}->http://live.dbpedia.org] can be kept alive indefinitely
+21:50:15.775 [main] DEBUG o.a.h.i.c.PoolingClientConnectionManager - Connection released: [id: 0][route: {}->http://live.dbpedia.org][total kept alive: 1; route allocated: 1 of 5; total allocated: 1 of 10]
+21:50:15.841 [main] DEBUG o.o.query.parser.QueryParserRegistry - Registered service class org.openrdf.query.parser.serql.SeRQLParserFactory
+21:50:15.871 [main] DEBUG o.o.query.parser.QueryParserRegistry - Registered service class org.openrdf.query.parser.sparql.SPARQLParserFactory
+
+http://dbpedia.org/resource/Abraham_Lincoln_University
+
+http://dbpedia.org/resource/Mount_St._Mary's_College
+
+http://dbpedia.org/resource/Loyola_Law_School
+
+http://dbpedia.org/resource/University_of_Santa_Monica
+
+http://dbpedia.org/resource/California_Institute_of_Technology
+
+http://dbpedia.org/resource/Pacific_Oaks_College
+
+http://dbpedia.org/resource/Southwestern_Law_School
+
+http://dbpedia.org/resource/Antioch_University_Los_Angeles
+
+http://dbpedia.org/resource/University_of_Southern_California
+
+http://dbpedia.org/resource/Pacific_Coast_University
+
+http://dbpedia.org/resource/Glendale_University_College_of_Law
+
+http://dbpedia.org/resource/Occidental_College
+
+http://dbpedia.org/resource/Woodbury_University
+
+http://dbpedia.org/resource/Whittier_College
+
+http://dbpedia.org/resource/California_InterContinental_University
+
+http://dbpedia.org/resource/Fashion_Institute_of_Design_&_Merchandising
+
+http://dbpedia.org/resource/Azusa_Pacific_University
+
+http://dbpedia.org/resource/Pepperdine_University
+
+http://dbpedia.org/resource/College_of_Osteopathic_Medicine_of_the_Pacific
+
+http://dbpedia.org/resource/Pacific_States_University
+
+http://dbpedia.org/resource/Southern_California_University_of_Health_Sciences
+
+http://dbpedia.org/resource/Art_Center_College_of_Design
+
+http://dbpedia.org/resource/University_of_the_West
+
+http://dbpedia.org/resource/American_Academy_of_Dramatic_Arts
+
+http://dbpedia.org/resource/Keck_Graduate_Institute_of_Applied_Life_Sciences
+
+http://dbpedia.org/resource/Loyola_Marymount_University
+
+
+Total number of private universities in California: 26
+BUILD SUCCESSFUL (total time: 6 seconds)
